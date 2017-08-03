@@ -38,6 +38,10 @@ a:focus {
   text-decoration: none;
   color: #2a95be;
 }
+em {
+  font-style: normal;
+  text-decoration: underline;
+}
 hr {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
@@ -263,14 +267,11 @@ ul.nostyle i {
   width: 100%;
   background: rgba(0, 0, 0, 0.1);
 }
-#features {
-  padding: 100px 0;
-}
-#features .media.service-box:first-child {
-  margin-top: 80px;
-}
 #services {
   padding: 100px 0 75px;
+}
+#services .media.service-box:first-child {
+  margin-top: 80px;
 }
 .media.service-box {
   margin: 25px 0;
@@ -311,42 +312,42 @@ ul.nostyle i {
   box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
 }
-#about {
+#vacancies {
   padding: 100px 0;
 }
-#meet-team {
+#team {
   padding: 100px 0;
 }
-#meet-team .team-member {
+#team .team-member {
   padding: 13px;
   background: #eeeeee;
   border: 2px solid #eeeeee;
   transition: border-color 400ms;
   -webkit-transition: border-color 400ms;
 }
-#meet-team .team-member .team-img {
+#team .team-member .team-img {
   margin: -15px -15px 0 -15px;
 }
-#meet-team .team-member .team-info {
+#team .team-member .team-info {
   padding-bottom: 10px;
   border-bottom: 1px solid #dbdbdb;
   margin-bottom: 10px;
 }
-#meet-team .team-member:hover {
+#team .team-member:hover {
   border-color: #45aed6;
 }
-#meet-team .team-member:hover .social-icons > li > a {
+#team .team-member:hover .social-icons > li > a {
   background: #45aed6;
 }
-#meet-team .social-icons {
+#team .social-icons {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-#meet-team .social-icons > li {
+#team .social-icons > li {
   display: inline-block;
 }
-#meet-team .social-icons > li > a {
+#team .social-icons > li > a {
   display: block;
   width: 32px;
   height: 32px;
@@ -443,14 +444,6 @@ ul.nostyle i {
 }
 #get-in-touch {
   padding: 100px 0 50px;
-  background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-  background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-  background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-  color: #fff;
-}
-#get-in-touch h1,
-#get-in-touch h2 {
-  color: #fff;
 }
 
 #contact {
